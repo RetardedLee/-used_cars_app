@@ -1,0 +1,112 @@
+name: guazi_app
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  banner_view: ^1.1.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  fonts:
+    - family:  Car
+      fonts:
+       - asset: assets/Car.ttf
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/96b37dbb3b487c72f79aafaed490a97a.png
+    - assets/images/12fb30f1f90191d85b8b363b77fb2f88.png
+    - assets/images/1b7bce567e7c115d1293743a7cb70e6d.png
+    - assets/images/qn181126180859537ea4799f54201331674eba5cb8ef1c.png
+    - assets/images/b666429cc4ff1bce39b0def2ae765840.png
+    - assets/images/a28caebe878c98a38209d392465550bb.png
+    - assets/images/2973354ac9733fecb20ecb7c8cd23e86.png
+    - assets/images/qn1812052030392fa49f22a2f6512d40b28f46a15517f5.png
+    - assets/images/qn19043010522775b65e5487c657695d90d46d3c7f5758.png
+    - assets/images/qn181126181048b6ac120b3db3c5f1b4450a2ba7c139b0.png
+    - assets/images/qn1811261811252aa3504b910d552427e7d3a8d4ae8df5.png
+    - assets/images/qn18101815452846c77b3896c38126f8f9a16bc4c61202.png
+    - assets/images/qn1811261823183fe91ea525c6667ae9e0c69886a389aa.png
+    - assets/images/qn1811261821580de2027e890ba385f6d36bca07d44f62.png
+    - assets/images/qn18101814505887ea245e7227ba74150c331f3809a4ee.png
+    - assets/images/qn18101815352230ebbcae09007293d82e89739382e1ce.png
+    - assets/images/qn181018153817d588fecd356871102a4bede5f0517565.png
+    - assets/images/qn1810181539182a7c66ff9eef67e42ae5c40335bf44db.png
+    - assets/images/placeholder.png
+    - assets/images/1207.png
+    - assets/images/1206.png
+    - assets/images/1205.png
+    - assets/images/1197.png
+    - assets/images/1199.png
+    - assets/images/1198.png
+    - assets/images/1307.png
+    - assets/images/1196.png
+    - assets/city.json
+    - assets/cars.json
+    - assets/images/loading.gif
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+
+  # HotTagItem(type: 'brand',tag: "大众",value: "大众",icon: '1207'),
+  # HotTagItem(type: 'brand',tag: "别克",value: "别克",icon: '1206'),
+  # HotTagItem(type: 'brand',tag: "福特",value: "福特",icon: '1205'),
+  # HotTagItem(type: 'brand',tag: "奔驰",value: "奔驰",icon: '1197'),
+  # HotTagItem(type: 'brand',tag: "奥迪",value: "奥迪",icon: '1199'),
+  # HotTagItem(type: 'brand',tag: "宝马",value: "宝马",icon: '1198'),
+  # HotTagItem(type: 'brand',tag: "雪佛兰",value: "雪佛兰",icon: '1307'),
+  # HotTagItem(type: 'brand',tag: "本田",value: "本田",icon: '1196'),
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
